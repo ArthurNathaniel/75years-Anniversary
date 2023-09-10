@@ -1,0 +1,108 @@
+  .audio-grid {
+      padding: 0 10%;
+      padding-block: 50px;
+      display: grid;
+    width: 100%;
+        height: 80vh;
+        overflow: auto;
+      grid-template-columns: 1fr 0fr;
+
+  }
+
+  .audio-play {
+      display: none;
+      height: 50vh;
+      width: 90%;
+      background-color: #1d292d;
+      position: relative;
+      /* Add this to make child elements position relative to this container */
+  }
+
+  .play-indicator {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  /* Add animation keyframes */
+  @keyframes pulse {
+      0% {
+          transform: scale(1);
+          opacity: 1;
+      }
+
+      50% {
+          transform: scale(1.1);
+          opacity: 0.5;
+      }
+
+      100% {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+
+  /* Apply animation to the play-indicator element */
+  .animate-pulse {
+      animation: pulse 1s infinite;
+  }
+
+  .audio-box {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      padding-block: 40px;
+      margin-bottom: 25px;
+      background-color: #1d292d;
+      color: #fff;
+      cursor: pointer;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .audio-icon {
+      /* width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #1d292d; */
+      margin: auto;
+  }
+
+  .audio-icon h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .audio-icon {
+      color: #fff;
+  }
+
+  .audio-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .audio-download {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .audio-list {
+      width: 100%;
+  }
+
+  .search{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10%;
+    padding-top: 70px;
+  }
+  .search input{
+    height: 50px;
+    width: 100%;
+  }
