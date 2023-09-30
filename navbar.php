@@ -16,7 +16,6 @@
                       <a href="pyc-executives.php">Pyc Executives</a>
                   </div>
               </div>
-
               <a href="audio-mass.php">Audio Mass</a>
               <a href="mass-intention.php">Mass Intention</a>
               <a href="photo-gallery.php">Gallery</a>
