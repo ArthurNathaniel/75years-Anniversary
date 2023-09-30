@@ -7,12 +7,12 @@
 
         </div>
         <div class="ft-nav">
-            <a href="">Home</a>
-            <a href="">About Us</a>
-            <a href="">Sermon</a>
-            <a href="">Event</a>
-            <a href="">Mass Intension</a>
-            <a href="">Contact Us</a>
+            <a href="index.php">Home</a>
+            <a href="welcome-message.php">Welcome Message</a>
+            <a href="audio-mass.php">Audio Mass</a>
+            <a href="mass-intention.php">Mass Intension</a>
+            <a href="photo-gallery.php">Gallery</a>
+            <a href="contact.php">Contact Us</a>
         </div>
         <div class="line">
 
@@ -21,24 +21,24 @@
             <div class="ft-box">
                 <h1>CONTACT US</h1>
                 <br>
-                <a href="">Asawase - Kumasi, Ghana</a>
+                <a href="https://maps.app.goo.gl/nwH4bnzSr13QVohy9">Asawase - Kumasi, Ghana</a>
                 <br>
                 <br>
-                <a href="">+233 000 000 000</a>
+                <a href="tel:+233 54 104 6076">+233 54 104 6076</a>
                 <br>
                 <br>
-                <a href="">info@sttheresaasawase.com</a>
+                <a href="mailto:info@sttheresaasawase.com">info@sttheresaasawase.com</a>
             </div>
             <div class="ft-box bbb">
                 <h1>QUICK LINKS</h1>
                 <br>
-                <a href="">Events</a>
+                <a href="photo-gallery.php">Photo Gallery</a>
                 <br>
                 <br>
-                <a href="">Audio Mass</a>
+                <a href="audio-mass.php">Audio Mass</a>
                 <br>
                 <br>
-                <a href="">Mass Intension</a>
+                <a href="mass-intention.php">Mass Intension</a>
             </div>
             <div class="ft-box">
                 <h1>OUR MASS</h1>

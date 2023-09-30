@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <?php include 'cdn.php'; ?>
+    <title>Home - St. Theresa Catholic Church</title>
+    <?php include 'cdn.php'; ?>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <?php include 'navbar.php'; ?>
+    <?php include 'navbar.php'; ?>
 
 
     <section id="hero-all">
@@ -18,7 +18,7 @@
             <p>
                 Welcome to St. Theresa Catholic Church, Asawase
             </p>
-           
+
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
 
@@ -28,7 +28,7 @@
                     </div>
 
                 </div>
-            
+
             </div>
         </div>
         <div class="hero-pic">
@@ -38,9 +38,9 @@
             <div class="pic">
                 <img src="./images/three.png" alt="">
             </div>
-            <div class="pic">
-                <img src="./images/two.png" alt="">
-            </div>
+            <!-- <div class="pic">
+                <img src="./gallery/home-3.jpg" alt="">
+            </div> -->
         </div>
     </section>
     <section>
@@ -96,7 +96,7 @@
             </div>
             <div class="services-grid">
                 <div class="card">
-                    <div class="card-image">
+                    <div class="card-image" style="background-image: url(./images/first_mass.jpg);">
 
                     </div>
                     <div class="card-info">
@@ -107,7 +107,7 @@
                 </div>
 
                 <div class="card">
-                    <div class="card-image">
+                    <div class="card-image" style="background-image: url(./images/second_mass.jpg);">
 
                     </div>
                     <div class="card-info">
@@ -119,7 +119,7 @@
 
 
                 <div class="card">
-                    <div class="card-image">
+                    <div class="card-image" style="background-image: url(./images/weekdays.jpg);">
 
                     </div>
                     <div class="card-info">
@@ -153,6 +153,8 @@
             </div>
             <div class="event-grid">
 
+
+
                 <div class="event-bx">
                     <div class="event-image">
 
@@ -166,25 +168,12 @@
                 </div>
 
                 <div class="event-bx">
-                    <div class="event-image">
+                    <div class="event-image" style="background-image: url(./climax.jpg);">
 
                     </div>
                     <div class="event-info">
-                        <h2>HOME COMING</h2>
-                        <p><i class="fa-solid fa-calendar-check"></i> SUNDAY 10TH SEPTEMBER,2023</p>
-                        <p><i class="fa-solid fa-location-dot"></i> CHURCH PREMISES</p>
-                        <p><i class="fa-solid fa-clock"></i> 7:00AM PROMPT</p>
-                    </div>
-                </div>
-
-
-                <div class="event-bx">
-                    <div class="event-image">
-
-                    </div>
-                    <div class="event-info">
-                        <h2>HOME COMING</h2>
-                        <p><i class="fa-solid fa-calendar-check"></i> SUNDAY 10TH SEPTEMBER,2023</p>
+                        <h2>Anniversary Climax</h2>
+                        <p><i class="fa-solid fa-calendar-check"></i> SUNDAY 1ST OCTOBER, 2023</p>
                         <p><i class="fa-solid fa-location-dot"></i> CHURCH PREMISES</p>
                         <p><i class="fa-solid fa-clock"></i> 7:00AM PROMPT</p>
                     </div>
@@ -199,7 +188,7 @@
     <script src="swiper.js"></script>
     <script src="anime.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             var typed = new Typed('.banner span', {
                 strings: ['Wopɛ Ade pa bra Asawase'],
                 typeSpeed: 100,

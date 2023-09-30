@@ -9,40 +9,17 @@ let currentlyPlaying = null;
 // Define an array of audio file URLs with titles and dates
 const audioFiles = [
   {
-    title: "Obaa Hemaa",
-    src: "./audio/obaa.mp3",
-    date: "2023-09-12",
+    title: "TItle: Audio Mass (St. John Chrysostom) ",
+    src: "https://res.cloudinary.com/drcy8aq34/video/upload/v1695221251/audio-mass_tb92co.mp3",
+    date: "Date: 13th September, 2023 \n <br> Name: Rev. Fr. Gabriel Kofi Sekyere",
   },
   {
-    title: "Oh Linda",
-    src: "./audio/Oh-linda.mp3",
-    date: "2023-09-14",
+    title: "TItle: ",
+    src: "https://res.cloudinary.com/drcy8aq34/video/upload/v1695221251/audio-mass_tb92co.mp3",
+    date: "Date: \n <br> Name:",
   },
-  {
-    title: "Audio 3",
-    src: "./audio/audio3.mp3",
-    date: "2023-09-16",
-  },
-
-  {
-    title: "Oh Linda",
-    src: "./audio/Oh-linda.mp3",
-    date: "2023-09-14",
-  },
-  {
-    title: "Oh Linda",
-    src: "./audio/Oh-linda.mp3",
-    date: "2023-09-14",
-  },
-  {
-    title: "Oh Linda",
-    src: "./audio/Oh-linda.mp3",
-    date: "2023-09-14",
-  },
-  // Add more audio files as needed
 ];
 
-// Function to create an audio item and append it to the audio list
 function createAudioItem(title, src, date) {
   const audioItem = document.createElement("div");
   audioItem.classList.add("audio-box");

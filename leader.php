@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Our Church Leaders - St. Theresa Catholic Church</title>
     <?php include 'cdn.php'; ?>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="about.css">
@@ -14,7 +14,7 @@
     <?php include 'navbar.php'; ?>
     <section>
         <div class="welcome-grid">
-            <h1>OUR CHURCH LEADER</h1>
+            <h1>OUR CHURCH LEADERS</h1>
         </div>
     </section>
 
@@ -25,9 +25,9 @@
 
                 </div>
                 <div class="profile-info">
-                    <h3>Rev Fr. Gabriel Kofi Sekyere</h3>
+                    <h3>Name</h3>
                     <p>
-                        2019 - NOW
+                        Position
                     </p>
                 </div>
             </div>
@@ -37,9 +37,9 @@
 
                 </div>
                 <div class="profile-info">
-                    <h3>Rev Fr. Gabriel Kofi Sekyere</h3>
+                    <h3>Name</h3>
                     <p>
-                        2019 - NOW
+                        Position
                     </p>
                 </div>
             </div>
@@ -49,9 +49,9 @@
 
                 </div>
                 <div class="profile-info">
-                    <h3>Rev Fr. Gabriel Kofi Sekyere</h3>
+                    <h3>Name</h3>
                     <p>
-                        2019 - NOW
+                        Position
                     </p>
                 </div>
             </div>
@@ -61,9 +61,9 @@
 
                 </div>
                 <div class="profile-info">
-                    <h3>Rev Fr. Gabriel Kofi Sekyere</h3>
+                    <h3>Name</h3>
                     <p>
-                        2019 - NOW
+                        Position
                     </p>
                 </div>
             </div>
@@ -73,9 +73,9 @@
 
                 </div>
                 <div class="profile-info">
-                    <h3>Rev Fr. Gabriel Kofi Sekyere</h3>
+                    <h3>Name</h3>
                     <p>
-                        2019 - NOW
+                        Position
                     </p>
                 </div>
             </div>
@@ -85,9 +85,9 @@
 
                 </div>
                 <div class="profile-info">
-                    <h3>Rev Fr. Gabriel Kofi Sekyere</h3>
+                    <h3>Name</h3>
                     <p>
-                        2019 - NOW
+                        Position
                     </p>
                 </div>
             </div>

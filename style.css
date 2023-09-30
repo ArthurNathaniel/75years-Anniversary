@@ -20,25 +20,27 @@ h2,
 h3,
 h4,
 h5,
-h6, span {
+h6,
+span {
     font-family: 'Playfair Display', serif;
 }
 
 .navbar-all {
     display: flex;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     align-items: center;
-position: sticky;
-top: 0;
-width: 100%;
-background-color: #ffffff;
-z-index: 45;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 45;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .nav-logo {
- 
+
     height: 120px;
     width: 120px;
     background-image: url(./images/logo.jpg);
@@ -50,7 +52,7 @@ z-index: 45;
 .nav-items {
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -59,27 +61,28 @@ z-index: 45;
     margin-right: 15px;
     text-decoration: none;
     color: #1d292d;
-text-transform: uppercase;
+    text-transform: uppercase;
     font-size: 15px;
 }
 
 .nav-btn {
-    border: 1px solid #1d292d;
-    padding: 15px 35px;
-    width: 16%;
-display: flex;
-justify-content: center;
-align-items: center;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-btn a {
     text-decoration: none;
     color: #000;
     text-transform: uppercase;
-        font-size: 15px;
-text-align: center;
-width: 100%;
-margin: auto;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #1d292d;
+        padding: 15px 30px;
 }
 
 
@@ -93,20 +96,20 @@ margin: auto;
 
 .navbar button {
     border: none;
-    
+
 }
 
 
 .dropdown {
     position: relative;
     display: inline-block;
-    
+
 }
 
 
 .dropbtn {
-text-transform: uppercase;
-font-size: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
     padding-right: 15px;
     border: none;
     cursor: pointer;
@@ -146,7 +149,7 @@ font-size: 15px;
 
 #hero-all {
     padding-bottom: 70px;
-    background-image: url(./images/12628435_5026563.jpg);
+    background-image: url(./images/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,7 +157,7 @@ font-size: 15px;
 
 .hero-pic {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -184,7 +187,7 @@ font-size: 15px;
     padding-right: 10%;
     font-size: 100px;
     display: flex;
-font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .text-slide {
@@ -193,9 +196,10 @@ font-family: 'Playfair Display', serif;
 
 }
 
-.text-slide h1 span{
+.text-slide h1 span {
     font-family: 'Playfair Display', serif;
 }
+
 .swiper {
     width: 100%;
     height: 100%;
@@ -513,65 +517,194 @@ font-family: 'Playfair Display', serif;
     text-transform: uppercase;
 }
 
-@media only screen and (max-width: 900px) {
-    .hero-grid {
+#toggleButton {
+    display: none;
+}
+
+@media only screen and (max-width: 1194px) {
+    .welcome-grid {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .welcome-image {
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
-        height: 100%;
+        justify-content: flex-start;
     }
 
-    .hero-image {
-        margin-top: 70px;
-    }
-
-    .hero-text h1 {
-        font-size: 100px;
-        line-height: 85px;
+    .services-grid,
+    .event-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
-@media only screen and (max-width: 650px) {
-    .hero-text h1 {
-        font-size: 85px;
-        line-height: 85px;
-    }
-}
-
-@media only screen and (max-width: 560px) {
-    .hero-text h1 {
-        font-size: 65px;
-        line-height: 65px;
+@media only screen and (max-width: 1235px) {
+    .navbar-all {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     }
 
-    .hero-image img {
+    .nav-items {
+        display: none;
+    }
+
+    #toggleButton {
+        display: block;
+        padding: 15px 25px;
+        border: none;
+        background-color: #1d292d;
+        color: #f2f2f2;
+    }
+
+    #toggleButton button {
+        height: 50px;
+        background-color: red;
+    }
+
+
+    .nav-items.show-flex {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
         width: 100%;
+        background-color: #1d292d;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    .dropbtn {
+        padding-block: 15px;
+
+    }
+
+    .nav-items a {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-block: 15px;
+        color: #f2f2f2;
+    }
+
+    .nav-btn {
+        text-align: center;
+        width: 25%;
+        border: 5px solid;
+
+    }
+
+    .nav-links {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .nav-links a {
+        border-bottom: 2px solid;
+    }
+
+    .dropbtn {
+        width: 100%;
+        border-bottom: 2px solid;
+        text-align: left;
+        color: #f2f2f2;
+    }
+
+    .dropdown {
+        width: 100%;
+        color: #f2f2f2;
+    }
+
+    .btnm {
+        padding: 15px 45px;
+    }
+
+    .dropdown-content {
+        background-color: #fff;
+        color: #1d292d;
+    }
+
+    .dropdown-content a {
+        color: #1d292d;
+    }
+
+    .nav-btn {
+
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .nav-btn a {
+        height: 50px;
+        text-align: left;
+        padding: 0;
     }
 }
 
-@media only screen and (max-width: 460px) {
-    .hero-text h1 {
-        font-size: 60px;
-        line-height: 65px;
+@media only screen and (max-width: 950px) {
+
+    .services-grid,
+    .event-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card,
+    .event-bx {
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .line,
+    .ft-nav {
+        display: none;
+    }
+
+    .ft-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .bbb {
+        display: none;
+    }
+
+    .ft-box {
+        margin-top: 50px;
+    }
+
+    .hero-texting h1 {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 50px;
+        display: flex;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .banner {
+        padding-block: 10vh;
+        background-color: #1d292d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 25px;
+        margin-bottom: 70px;
+        text-align: center;
     }
 }
 
-@media only screen and (max-width: 390px) {
-    .hero-text h1 {
-        font-size: 55px;
-        line-height: 55px;
-    }
-}
-
-@media only screen and (max-width: 370px) {
-    .hero-text h1 {
-        font-size: 45px;
-        line-height: 55px;
-    }
-}
-
-@media only screen and (max-width: 300px) {
-    .hero-text h1 {
-        font-size: 35px;
-        line-height: 35px;
+@media only screen and (max-width: 550px) {
+    .welcome-image img {
+        width: 100%;
     }
 }

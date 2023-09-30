@@ -1,5 +1,2 @@
-const navLinks = document.querySelector(".mobile");
+const navbarlinks = document.querySelector(".nav-items");
 
-const changeNav = () => {
-  navLinks.classList.toggle("show");
-};

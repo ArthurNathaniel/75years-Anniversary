@@ -1,5 +1,5 @@
 .welcome-grid{
-   background-image: url(./images/12628435_5026563.jpg);
+   background-image: url(./images/bg.jpg);
    height: 70vh;
    display: flex;
    justify-content: center;
@@ -7,6 +7,8 @@
 }
 .welcome-grid h1{
 font-size: 65px;
+text-transform: uppercase;
+text-align: center;
 }
 
 .welcome-message-grid{
@@ -36,18 +38,40 @@ font-size: 65px;
 }
 
 .profile{
-    height: 65vh;
+    height: 550px;
     width: 95%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    margin-bottom: 50px;
 }
 .profile-image{
     background-color: #1d292d;
-    height: 50vh;
+    height: 450px;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .profile-info{
     padding-block: 20px;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+@media only screen and (max-width: 1122px) {
+    .profile-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+        .welcome-grid h1 {
+            font-size: 45px;
+            text-transform: uppercase;
+        }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .profile-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
